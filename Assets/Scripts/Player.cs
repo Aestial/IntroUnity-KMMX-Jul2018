@@ -4,12 +4,12 @@
 public class Player
 {
 	bool isDead = false;
-	private int numItems = 400;
-	// private long numBactery = 0;
-	private float health = 1.0f;
+    public int numItems = 400;
+    // private long numBactery = 0;
+    public float health = 1.0f;
 	// private double mana = 0.0;
 	private new string name = "Player";
-	private string clanName = "Gryffindor";
+	public string clanName = "Gryffindor";
 
 	// Propierties
 	public float Health
