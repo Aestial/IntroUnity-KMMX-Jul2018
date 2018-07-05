@@ -21,17 +21,79 @@ public class FoleyPlayer : MonoBehaviour
 
     public SoundFX[] effects;
 
+    public List<SoundFX> effectsList;
+
+    private string[] names = { "Hugo", "Paco", "Luis" };
+
+    private float[] powerCosts;
+    private bool[] flags;
+
     public SoundFX explosionFX;
     public SoundFX shootFX;
 
 	// Use this for initialization
     void Start () 
     {
+        powerCosts = new float[30];
+        flags = new bool[25];
+
+        InitializeArray(14.67f, powerCosts);
+        InitializeArray(true, flags);
         //int numSound = 10;
         audioSource = GetComponent<AudioSource>();
         //StartCoroutine(PlayTestCoroutine());
-        StartCoroutine(PlayAllCoroutine());
+        //StartCoroutine(PlayAllCoroutine());
+        this.PrintArray(flags);
+        this.PrintArray(powerCosts);
 	}
+
+    private void InitializeArray(bool value, bool[] array)
+    {
+        for (int i = 0; i < array.Length; i++)
+        {
+            array[i] = value;
+        }
+    }
+
+    private void InitializeArray(float value, float[] array)
+    {
+        for (int i = 0; i < array.Length; i++)
+        {
+            array[i] = value * i;
+        }
+    }
+
+    private void PrintArray(bool[] array)
+    {
+        for (int i = 0; i < array.Length; i++)
+        {
+            Debug.Log(array[i]);
+        }
+    }
+
+    private void PrintArray(float[] array)
+    {
+        for (int i = 0; i < array.Length; i++)
+        {
+            Debug.Log(array[i]);
+        }
+    }
+
+    private void PrintArray(int[] array)
+    {
+        for (int i = 0; i < array.Length; i++)
+        {
+            Debug.Log(array[i]);
+        }
+    }
+
+    private void PrintArray(string[] array)
+    {
+        for (int i = 0; i < array.Length; i++)
+        {
+            Debug.Log(array[i]);
+        }
+    }
 
     private IEnumerator PlayTestCoroutine()
     {
