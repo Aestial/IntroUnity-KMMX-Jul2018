@@ -8,12 +8,14 @@ public class Resizer : MonoBehaviour
     public float scale = 2.0f;
 
     private Transform t;
+    private Rotator rotator;
 
 	// Use this for initialization
 	void Start ()
     {
         t = GetComponent<Transform>();
-        Debug.Log(t);
+        rotator = GetComponent<Rotator>();
+        Debug.Log(rotator.speed);
 	}
 	
 	// Update is called once per frame
@@ -21,4 +23,6 @@ public class Resizer : MonoBehaviour
     {
         t.localScale = new Vector3(scale, scale, scale);
 	}
+
+
 }

@@ -54,7 +54,6 @@ public class HelloWorld : MonoBehaviour
 	// Use this for initialization
 	void Start () 
 	{
-        
 		print("Hello World! - Start");
 	}
 	
