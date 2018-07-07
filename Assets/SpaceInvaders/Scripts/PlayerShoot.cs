@@ -12,7 +12,6 @@ public class PlayerShoot : MonoBehaviour
 	void Start () 
     {
         transform = GetComponent<Transform>();
-
 	}
 	
 	void Update () 
