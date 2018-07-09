@@ -18,7 +18,7 @@ public class BulletDamage : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
 	{
         Debug.Log("Collision Detected");
-        //Debug.Log(collision.otherRigidbody.gameObject.name);
+        Debug.Log(collision.otherRigidbody.gameObject.name);
         Debug.Log(collision.collider.gameObject.name);
         GameObject enemy = collision.collider.gameObject;
         Destroy(enemy);
