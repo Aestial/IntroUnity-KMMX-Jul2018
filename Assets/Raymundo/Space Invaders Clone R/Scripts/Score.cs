@@ -1,22 +1,27 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿namespace Raymundo 
+{
+    using System.Collections;
+    using System.Collections.Generic;
+    using UnityEngine;
 
-public class Score : MonoBehaviour {
-
-    public static int currentscore;
-
-    // Use this for initialization
-    void Start ()
+    public class Score : MonoBehaviour
     {
-        currentscore = 0;
+
+        public static int currentscore;
+
+        // Use this for initialization
+        void Start()
+        {
+            currentscore = 0;
+        }
+
+        // Update is called once per frame
+        void Update()
+        {
+
+        }
+
+
     }
-	
-	// Update is called once per frame
-	void Update ()
-    {
-		
-	}
-
 
 }

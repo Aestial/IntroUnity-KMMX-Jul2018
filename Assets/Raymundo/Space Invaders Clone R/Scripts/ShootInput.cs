@@ -1,28 +1,32 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class ShootInput : MonoBehaviour 
+﻿namespace Raymundo
 {
-    public GameObject prefab;
-    private Transform t;
-    Vector3 position;
-	
-    // Use this for initialization
-	void Start () 
-    {
-        t = GetComponent<Transform>();
+    using System.Collections;
+    using System.Collections.Generic;
+    using UnityEngine;
 
-	}
-	
-	// Update is called once per frame
-	void Update () 
+    public class ShootInput : MonoBehaviour
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        public GameObject prefab;
+        private Transform t;
+        Vector3 position;
+
+        // Use this for initialization
+        void Start()
         {
-            position = transform.position;
-            //Debug.Log("Player Shoots!");
-            Instantiate(prefab, position, Quaternion.identity);
+            t = GetComponent<Transform>();
+
         }
-	}
+
+        // Update is called once per frame
+        void Update()
+        {
+            if (Input.GetKeyDown(KeyCode.Space))
+            {
+                position = transform.position;
+                //Debug.Log("Player Shoots!");
+                Instantiate(prefab, position, Quaternion.identity);
+            }
+        }
+    }
+
 }

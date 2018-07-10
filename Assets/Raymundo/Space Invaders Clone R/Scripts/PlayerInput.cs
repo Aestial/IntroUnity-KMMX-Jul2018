@@ -1,37 +1,41 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class PlayerInput : MonoBehaviour
+﻿namespace Raymundo
 {
-    public float speed;
-    private Transform t;
+    using System.Collections;
+    using System.Collections.Generic;
+    using UnityEngine;
 
-	// Use this for initialization
-	void Start ()
+    public class PlayerInput : MonoBehaviour
     {
-        t = GetComponent<Transform>();
-        speed = 0.18f;
-	}
-	
-	// Update is called once per frame
-	void Update ()
-    {
-        float x = t.localPosition.x;
-        if (Input.GetKey(KeyCode.D))
-        {  
-            if (x<= 11.5f)
-            {
-                t.localPosition += new Vector3(speed, 0.0f);
-            }
+        public float speed;
+        private Transform t;
+
+        // Use this for initialization
+        void Start()
+        {
+            t = GetComponent<Transform>();
+            speed = 0.18f;
         }
 
-        if (Input.GetKey(KeyCode.A))
+        // Update is called once per frame
+        void Update()
         {
-            if (x >= -11.5f)
+            float x = t.localPosition.x;
+            if (Input.GetKey(KeyCode.D))
             {
-                t.localPosition -= new Vector3(speed, 0.0f);
+                if (x <= 11.5f)
+                {
+                    t.localPosition += new Vector3(speed, 0.0f);
+                }
+            }
+
+            if (Input.GetKey(KeyCode.A))
+            {
+                if (x >= -11.5f)
+                {
+                    t.localPosition -= new Vector3(speed, 0.0f);
+                }
             }
         }
     }
+
 }
