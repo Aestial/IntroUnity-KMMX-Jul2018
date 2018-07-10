@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class BulletDamage : MonoBehaviour 
 {
+    public GameManager gameManager;
 
 	void Start () 
     {
@@ -23,5 +24,6 @@ public class BulletDamage : MonoBehaviour
         GameObject enemy = collision.collider.gameObject;
         Destroy(enemy);
         Destroy(gameObject);
+        GameManager.instance.GameOver();
 	}
 }
