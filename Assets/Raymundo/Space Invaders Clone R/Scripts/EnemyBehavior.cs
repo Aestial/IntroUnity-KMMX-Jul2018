@@ -13,7 +13,7 @@ public class EnemyBehavior : MonoBehaviour
     void Start ()
     {
         t = GetComponent<Transform>();
-        speed = 0.1f;
+        //speed = 0.1f;
         dspeed = -2.0f;
         movesRight = true;
 	}

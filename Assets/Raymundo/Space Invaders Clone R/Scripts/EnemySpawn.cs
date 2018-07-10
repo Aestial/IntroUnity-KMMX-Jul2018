@@ -8,6 +8,7 @@ public class EnemySpawn : MonoBehaviour
     private Transform t;
     private float wait;
     public int enemycount;
+    public float speed;
     Vector3 position;
 
 	// Use this for initialization
@@ -19,11 +20,13 @@ public class EnemySpawn : MonoBehaviour
 
     IEnumerator Spawner()
     {
+        yield return new WaitForSeconds(1.0f);
         while (enemycount < 250)
         {
             t = GetComponent<Transform>();
             position = t.position;
-            Instantiate(prefab, position, Quaternion.identity);
+            GameObject newEnemy = Instantiate(prefab, position, Quaternion.identity);
+            newEnemy.GetComponent<EnemyBehavior>().speed = this.speed;
             enemycount += 1;
             yield return new WaitForSecondsRealtime(wait);
         }

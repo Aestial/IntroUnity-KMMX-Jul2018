@@ -142,6 +142,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   prefab: {fileID: 1714273810899190, guid: 30929df3c4bce44ebae5e237746ffaa4, type: 2}
   enemycount: 0
+  speed: 0.1
 --- !u!4 &67616030
 Transform:
   m_ObjectHideFlags: 0
