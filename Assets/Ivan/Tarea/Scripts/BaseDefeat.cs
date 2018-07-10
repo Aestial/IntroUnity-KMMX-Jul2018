@@ -1,23 +1,26 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class BaseDefeat : MonoBehaviour
+﻿namespace Ivan
 {
-    private Transform playerBase;
+    using System.Collections;
+    using System.Collections.Generic;
+    using UnityEngine;
 
-	// Use this for initialization
-	void Start ()
+    public class BaseDefeat : MonoBehaviour
     {
-        playerBase = GetComponent<Transform>();
-	}
-	
-	// Update is called once per frame
-	void Update ()
-    {
-		if(playerBase.childCount == 0)
+        private Transform playerBase;
+
+        // Use this for initialization
+        void Start()
         {
-            GameOver.isPlayerDead = true;
+            playerBase = GetComponent<Transform>();
         }
-	}
+
+        // Update is called once per frame
+        void Update()
+        {
+            if (playerBase.childCount == 0)
+            {
+                GameOver.isPlayerDead = true;
+            }
+        }
+    }
 }

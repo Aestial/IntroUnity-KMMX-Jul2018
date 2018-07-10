@@ -1,28 +1,31 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.UI;
-
-public class GameOver : MonoBehaviour
+﻿namespace Ivan
 {
-    public static bool isPlayerDead = false;
+    using System.Collections;
+    using System.Collections.Generic;
+    using UnityEngine;
+    using UnityEngine.UI;
 
-    private Text gameOver;
+    public class GameOver : MonoBehaviour
+    {
+        public static bool isPlayerDead = false;
 
-	// Use this for initialization
-	void Start ()
-    {
-        gameOver = GetComponent<Text>();
-        gameOver.enabled = false;
-	}
-	
-	// Update is called once per frame
-	void Update ()
-    {
-		if (isPlayerDead)
+        private Text gameOver;
+
+        // Use this for initialization
+        void Start()
         {
-            Time.timeScale = 0;
-            gameOver.enabled = true;
+            gameOver = GetComponent<Text>();
+            gameOver.enabled = false;
         }
-	}
+
+        // Update is called once per frame
+        void Update()
+        {
+            if (isPlayerDead)
+            {
+                Time.timeScale = 0;
+                gameOver.enabled = true;
+            }
+        }
+    }
 }

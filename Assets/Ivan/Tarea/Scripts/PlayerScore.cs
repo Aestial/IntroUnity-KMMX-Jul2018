@@ -1,22 +1,25 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.UI;
-
-public class PlayerScore : MonoBehaviour
+﻿namespace Ivan
 {
-    public static float playerScore = 0;
-    private Text scoreText;
+    using System.Collections;
+    using System.Collections.Generic;
+    using UnityEngine;
+    using UnityEngine.UI;
 
-	// Use this for initialization
-	void Start ()
+    public class PlayerScore : MonoBehaviour
     {
-        scoreText = GetComponent<Text>();
-	}
-	
-	// Update is called once per frame
-	void Update ()
-    {
-        scoreText.text = "Score: " + playerScore;
-	}
+        public static float playerScore = 0;
+        private Text scoreText;
+
+        // Use this for initialization
+        void Start()
+        {
+            scoreText = GetComponent<Text>();
+        }
+
+        // Update is called once per frame
+        void Update()
+        {
+            scoreText.text = "Score: " + playerScore;
+        }
+    }
 }
