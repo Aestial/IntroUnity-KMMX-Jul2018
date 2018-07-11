@@ -41,6 +41,11 @@ public class GameManager : MonoBehaviour
         SetGameState(GameState.End);
     }
 
+    public void Quit()
+    {
+        Application.Quit();
+    }
+
     public void BackToMenu()
     {
         SetGameState(GameState.Begin);

@@ -66,7 +66,6 @@ namespace Invaders
             ScreenBound sb;
             sb.min = new Vector3(0, 0, this.cam.nearClipPlane);
             sb.max = new Vector3(Screen.width, Screen.height, this.cam.nearClipPlane);
-            
             WorldBound wb;
             wb.min = cam.ScreenToWorldPoint(sb.min);
             wb.max = cam.ScreenToWorldPoint(sb.max);
