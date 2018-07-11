@@ -19,7 +19,7 @@
         // Update is called once per frame
         void Update()
         {
-            scoreText.text = "Score: " + playerScore;
+            scoreText.text = "SCORE: " + playerScore;
         }
     }
 }

@@ -14,14 +14,23 @@
     {
         public GameState current;
 
+        public Transform enemy;
+        public Transform player;
+        public Transform baseHolder;
+        public Canvas mainMenu;
+        
+        
+
+
         void Start()
         {
-            SetGameState(GameState.Playing);
+            SetGameState(GameState.Start);
+            
         }
 
         public void StartGame()
         {
-            SetGameState(GameState.Start);
+            SetGameState(GameState.Playing);
         }
         public void GameOver()
         {
@@ -31,16 +40,52 @@
         {
             SetGameState(GameState.Start);
         }
+        public void Quit()
+        {
+            Application.Quit();
+        }
+
 
         void SetGameState(GameState newGameState)
         {
+            if (newGameState == GameState.Start)
+            {
+                mainMenu.enabled = true;
+                
+                baseHolder.gameObject.SetActive(false);
+                enemy.gameObject.SetActive(false);
+                player.gameObject.SetActive(false);
 
-        }
-        // Update is called once per frame
-        void Update()
-        {
+            }
 
+            else if (newGameState == GameState.Playing)
+            {
+                mainMenu.enabled = false;
+                
+                baseHolder.gameObject.SetActive(true);
+                enemy.gameObject.SetActive(true);
+                player.gameObject.SetActive(true);
+
+
+            }
+
+            else if (newGameState == GameState.End)
+            {
+                
+                mainMenu.enabled = false;
+                
+                baseHolder.gameObject.SetActive(false);
+                enemy.gameObject.SetActive(false);
+                player.gameObject.SetActive(false);
+
+
+            }
+
+            this.current = newGameState;
         }
     }
+       
+      
+    
 }
 
