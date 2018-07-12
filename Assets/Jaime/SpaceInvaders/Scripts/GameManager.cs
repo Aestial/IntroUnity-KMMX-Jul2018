@@ -18,6 +18,9 @@ public class GameManager : MonoBehaviour
     public Transform enemy;
     public Transform player;
     public Canvas mainMenu;
+    public Canvas endMenu;
+
+    public EnemyManager enemyManager;
 
     private GameState current;
 
@@ -58,6 +61,7 @@ public class GameManager : MonoBehaviour
         {
             Debug.Log("Game Start");
             mainMenu.enabled = true;
+            endMenu.enabled = false;
             enemy.gameObject.SetActive(false);
             player.gameObject.SetActive(false);
 
@@ -67,6 +71,7 @@ public class GameManager : MonoBehaviour
         {
             Debug.Log("Playing");
             mainMenu.enabled = false;
+            endMenu.enabled = false;
             enemy.gameObject.SetActive(true);
             player.gameObject.SetActive(true);
 
@@ -76,6 +81,7 @@ public class GameManager : MonoBehaviour
         {
             Debug.Log("Game Over");
             mainMenu.enabled = false;
+            endMenu.enabled = true;
             enemy.gameObject.SetActive(false);
             player.gameObject.SetActive(false);
 

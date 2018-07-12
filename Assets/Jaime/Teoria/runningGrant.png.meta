@@ -1,0 +1,1483 @@
+fileFormatVersion: 2
+guid: fba57df92b98e4787937836c1ea45996
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: runningGrant_0
+    21300002: runningGrant_1
+    21300004: runningGrant_2
+    21300006: runningGrant_3
+    21300008: runningGrant_4
+    21300010: runningGrant_5
+    21300012: runningGrant_6
+    21300014: runningGrant_7
+    21300016: runningGrant_8
+    21300018: runningGrant_9
+    21300020: runningGrant_10
+    21300022: runningGrant_11
+    21300024: runningGrant_12
+    21300026: runningGrant_13
+    21300028: runningGrant_14
+    21300030: runningGrant_15
+    21300032: runningGrant_16
+    21300034: runningGrant_17
+    21300036: runningGrant_18
+    21300038: runningGrant_19
+    21300040: runningGrant_20
+    21300042: runningGrant_21
+    21300044: runningGrant_22
+    21300046: runningGrant_23
+    21300048: runningGrant_24
+    21300050: runningGrant_25
+    21300052: runningGrant_26
+    21300054: runningGrant_27
+    21300056: runningGrant_28
+    21300058: runningGrant_29
+    21300060: runningGrant_30
+    21300062: runningGrant_31
+    21300064: runningGrant_32
+    21300066: runningGrant_33
+    21300068: runningGrant_34
+    21300070: runningGrant_35
+    21300072: runningGrant_36
+    21300074: runningGrant_37
+    21300076: runningGrant_38
+    21300078: runningGrant_39
+    21300080: runningGrant_40
+    21300082: runningGrant_41
+    21300084: runningGrant_42
+    21300086: runningGrant_43
+    21300088: runningGrant_44
+    21300090: runningGrant_45
+    21300092: runningGrant_46
+    21300094: runningGrant_47
+    21300096: runningGrant_48
+    21300098: runningGrant_49
+    21300100: runningGrant_50
+    21300102: runningGrant_51
+    21300104: runningGrant_52
+    21300106: runningGrant_53
+    21300108: runningGrant_54
+    21300110: runningGrant_55
+    21300112: runningGrant_56
+    21300114: runningGrant_57
+    21300116: runningGrant_58
+    21300118: runningGrant_59
+    21300120: runningGrant_60
+    21300122: runningGrant_61
+    21300124: runningGrant_62
+    21300126: runningGrant_63
+  externalObjects: {}
+  serializedVersion: 5
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: runningGrant_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1755.4286
+        width: 170.66667
+        height: 292.57144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbc074e46fd7347a6bec0df984472c4d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runningGrant_1
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 1755.4286
+        width: 170.66667
+        height: 292.57144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd142663715084fdc99ef7edd70fabf2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runningGrant_2
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 1755.4286
+        width: 170.66667
+        height: 292.57144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1482ff1df52cd44e786d57b26ca0324a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runningGrant_3
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 1755.4286
+        width: 170.66667
+        height: 292.57144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f1a45f5e9678411e8f407987c7d1c2e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runningGrant_4
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 1755.4286
+        width: 170.66667
+        height: 292.57144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e11b8b819328483e964394e354fe08a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runningGrant_5
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 1755.4286
+        width: 170.66667
+        height: 292.57144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: def64c1c0d25a4066b3d89e829882c25
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runningGrant_6
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 1755.4286
+        width: 170.66667
+        height: 292.57144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d1ede2af5d79463ca54d4606ac13ab3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runningGrant_7
+      rect:
+        serializedVersion: 2
+        x: 1190
+        y: 1755.4286
+        width: 170.66667
+        height: 292.57144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11f38698432a64447a81284c2299a966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runningGrant_8
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 1755.4286
+        width: 170.66667
+        height: 292.57144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fa64716865e64720949b56f1c1d62ee
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runningGrant_9
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 1755.4286
+        width: 170.66667
+        height: 292.57144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6847d19d23cc34ab7ae4743a79eaa4cd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runningGrant_10
+      rect:
+        serializedVersion: 2
+        x: 1700
+        y: 1755.4286
+        width: 170.66667
+        height: 292.57144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6e5b9b2613ca4917b4c95776b73199f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runningGrant_11
+      rect:
+        serializedVersion: 2
+        x: 1870
+        y: 1755.4286
+        width: 170.66667
+        height: 292.57144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 655300a94c3b34679bb80ac4b5a864e8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runningGrant_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1463.4286
+        width: 170.66667
+        height: 292.57144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dba0a61b3dfa4187ba5d3eaf27d2203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runningGrant_13
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 1463.4286
+        width: 170.66667
+        height: 292.57144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c1868ac6c70f47bdb875fe38f4eb83a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runningGrant_14
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 1463.4286
+        width: 170.66667
+        height: 292.57144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f9e04ff2ddbf4fdbbd5d69f1ad7439d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runningGrant_15
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 1463.4286
+        width: 170.66667
+        height: 292.57144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c31ec05f05a640769e95e941816afd2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runningGrant_16
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 1463.4286
+        width: 170.66667
+        height: 292.57144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b095b58d9a7164a4db5890138b2c5d0b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runningGrant_17
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 1463.4286
+        width: 170.66667
+        height: 292.57144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de921153aba434d54b994fa7d316a66d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runningGrant_18
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 1463.4286
+        width: 170.66667
+        height: 292.57144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69c428147791f46b88906d0549dc75c9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runningGrant_19
+      rect:
+        serializedVersion: 2
+        x: 1190
+        y: 1463.4286
+        width: 170.66667
+        height: 292.57144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48f68304429c64b44b01870b6a228fb4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runningGrant_20
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 1463.4286
+        width: 170.66667
+        height: 292.57144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c943c31d8c27041dd8691392cbf935f6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runningGrant_21
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 1463.4286
+        width: 170.66667
+        height: 292.57144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7085e0c2e10c646ba9f841a95b3b9f87
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runningGrant_22
+      rect:
+        serializedVersion: 2
+        x: 1700
+        y: 1463.4286
+        width: 170.66667
+        height: 292.57144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e1638ea3370142aa936b130b9e5c59f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runningGrant_23
+      rect:
+        serializedVersion: 2
+        x: 1870
+        y: 1463.4286
+        width: 170.66667
+        height: 292.57144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06a47f5335ed040d882a66bcfce069e5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runningGrant_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1171.4286
+        width: 170.66667
+        height: 292.57144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b28feb2ea840f413c8b16ee935444b3f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runningGrant_25
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 1171.4286
+        width: 170.66667
+        height: 292.57144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e6db1e3ee53d4e3d9fab33021ba311f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runningGrant_26
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 1171.4286
+        width: 170.66667
+        height: 292.57144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d507366d5872141cf93f35a6c25eecbf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runningGrant_27
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 1171.4286
+        width: 170.66667
+        height: 292.57144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c24f59c694e5e46fdb1c4d1f53621e68
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runningGrant_28
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 1171.4286
+        width: 170.66667
+        height: 292.57144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06e408ab94f3b43d693d410538100329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runningGrant_29
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 1171.4286
+        width: 170.66667
+        height: 292.57144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4371b411442b54171b857ceb092f655c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runningGrant_30
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 1171.4286
+        width: 170.66667
+        height: 292.57144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f2e1b92711c04933897f383ee3563ff
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runningGrant_31
+      rect:
+        serializedVersion: 2
+        x: 1190
+        y: 1171.4286
+        width: 170.66667
+        height: 292.57144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8997179590ab54607bca68560a4145ce
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runningGrant_32
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 1171.4286
+        width: 170.66667
+        height: 292.57144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e72e9049bd84427482d39de3caa896e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runningGrant_33
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 1171.4286
+        width: 170.66667
+        height: 292.57144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc582a9a14b674c5aa2adcf8d942ec2b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runningGrant_34
+      rect:
+        serializedVersion: 2
+        x: 1700
+        y: 1171.4286
+        width: 170.66667
+        height: 292.57144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61dd6b4572955471ba42da29e0992e36
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runningGrant_35
+      rect:
+        serializedVersion: 2
+        x: 1870
+        y: 1171.4286
+        width: 170.66667
+        height: 292.57144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cd9822eef46841a9893ef03693f257b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runningGrant_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 879.4286
+        width: 170.66667
+        height: 292.57144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a56fbaae5a844c07a9678ce027726ea
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runningGrant_37
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 879.4286
+        width: 170.66667
+        height: 292.57144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecac1944b1f9849db92131152ac4649b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runningGrant_38
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 879.4286
+        width: 170.66667
+        height: 292.57144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1726d6b4699df4c1dac47254d9ad1f0c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runningGrant_39
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 879.4286
+        width: 170.66667
+        height: 292.57144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af1e87a15d40e4db689336011a08eae2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runningGrant_40
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 879.4286
+        width: 170.66667
+        height: 292.57144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f033c4c2338b2478da8843c7497ebfec
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runningGrant_41
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 879.4286
+        width: 170.66667
+        height: 292.57144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbdb21afa9dfb40d2ab565028ec244d6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runningGrant_42
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 879.4286
+        width: 170.66667
+        height: 292.57144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 760b840d1297245cb9653c953eeb409f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runningGrant_43
+      rect:
+        serializedVersion: 2
+        x: 1190
+        y: 879.4286
+        width: 170.66667
+        height: 292.57144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f1fd8f462f674c80b89fa931be5e1ad
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runningGrant_44
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 879.4286
+        width: 170.66667
+        height: 292.57144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29294756730b94915a21e807deca4cd0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runningGrant_45
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 879.4286
+        width: 170.66667
+        height: 292.57144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74760d29fa4474e55a4cf7d557a55a0d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runningGrant_46
+      rect:
+        serializedVersion: 2
+        x: 1700
+        y: 879.4286
+        width: 170.66667
+        height: 292.57144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55f63dc3114e54b628eb80f3e762e467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runningGrant_47
+      rect:
+        serializedVersion: 2
+        x: 1870
+        y: 879.4286
+        width: 170.66667
+        height: 292.57144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 587a3524165b74ea78a87cc812d7211d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runningGrant_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 587.4286
+        width: 170.66667
+        height: 292.57144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a02c62eb4f9904444af1bba606580908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runningGrant_49
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 587.4286
+        width: 170.66667
+        height: 292.57144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b90752deff6e84900a21e0fb02cb467e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runningGrant_50
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 587.4286
+        width: 170.66667
+        height: 292.57144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2669a935830b4af1a987a6c770b455a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runningGrant_51
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 587.4286
+        width: 170.66667
+        height: 292.57144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8df6011049874bbc91fb80ad0d258cf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runningGrant_52
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 587.4286
+        width: 170.66667
+        height: 292.57144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c13cc66f8c78649159a3a7dbb144142c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runningGrant_53
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 587.4286
+        width: 170.66667
+        height: 292.57144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b483cb90b73604bafb399893ec4bcb52
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runningGrant_54
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 587.4286
+        width: 170.66667
+        height: 292.57144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb608b3f96de040199d2f090ea914cdf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runningGrant_55
+      rect:
+        serializedVersion: 2
+        x: 1190
+        y: 587.4286
+        width: 170.66667
+        height: 292.57144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8581c913aa85546dfa73664ed915528c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runningGrant_56
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 587.4286
+        width: 170.66667
+        height: 292.57144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 532c18c3db240402b96ca7ff8513f3b7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runningGrant_57
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 587.4286
+        width: 170.66667
+        height: 292.57144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03b9dcb7d85b441c589517fcaf689736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runningGrant_58
+      rect:
+        serializedVersion: 2
+        x: 1700
+        y: 587.4286
+        width: 170.66667
+        height: 292.57144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 047cd183a8e6e40ae88de399b1de661c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runningGrant_59
+      rect:
+        serializedVersion: 2
+        x: 1870
+        y: 587.4286
+        width: 170.66667
+        height: 292.57144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50cdbd6fbf2e944649e8aa1d5e071df0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runningGrant_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 295.42856
+        width: 170.66667
+        height: 292.57144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c54935a7319294634a704fe1b12b17ad
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runningGrant_61
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 295.42856
+        width: 170.66667
+        height: 292.57144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 796bc42b28ad74744a56d2c3ab5dc6d2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runningGrant_62
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 295
+        width: 171
+        height: 293
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daf0cfb429bce4a6dac072083ec57ae1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: runningGrant_63
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 295
+        width: 171
+        height: 293
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4860d7f1fbbb428ebe5f87b79377bdb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 766cdf02838df4a1d90146ea5a4d3f91
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

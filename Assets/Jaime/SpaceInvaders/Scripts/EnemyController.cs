@@ -20,14 +20,15 @@ public class EnemyController : MonoBehaviour
         {
             GameObject bullet = collision.collider.gameObject;
             Destroy(bullet);
-            animator.SetTrigger("OnDieTrigger");    
+            animator.SetTrigger("OnDieTrigger");
         }
     }
 
     public void Die()
     {
         Destroy(gameObject);
-        GameManager.instance.GameOver();
+        EnemyManager.instance.Count++;
+        //GameManager.instance.GameOver();
     }
 
     void Update () 
