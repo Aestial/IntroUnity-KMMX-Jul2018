@@ -20,8 +20,6 @@ public class GameManager : MonoBehaviour
     public Canvas mainMenu;
     public Canvas endMenu;
 
-    public EnemyManager enemyManager;
-
     private GameState current;
 
     void Awake()
@@ -74,7 +72,7 @@ public class GameManager : MonoBehaviour
             endMenu.enabled = false;
             enemy.gameObject.SetActive(true);
             player.gameObject.SetActive(true);
-
+            EnemyManager.instance.Restart();
         }
 
         else if (newGameState == GameState.End)

@@ -8,8 +8,10 @@ public class EnemyManager : MonoBehaviour
     //SINGLETON
     public static EnemyManager instance;
 
+    [SerializeField] private GameObject enemyPrefab;
+    [SerializeField] private int enemyCount;
     [SerializeField] private string countTextPrefix;
-    [SerializeField] private int total;
+    //[SerializeField] private int total;
     [SerializeField] private Text countText;
 
     private int count;
@@ -17,34 +19,13 @@ public class EnemyManager : MonoBehaviour
     public int Count
     {
         get { return count; }
-        set { SetAndCheckCount(value); }
-    }
-
-    public void Restart()
-    {
-        //Instanciar objetos
-        count = 0;
-    }
-
-    private void SetAndCheckCount(int value)
-    {
-        count = value;
-        CheckCount();
-        UpdateUI();
-    }
-
-    private void CheckCount()
-    {
-        Debug.Log("Enemies killed: " + count.ToString());
-        if (count >= total)
+        set
         {
-            GameManager.instance.GameOver();
+            count = value;
+            Debug.Log(value);
+            CheckCount(value);
+            UpdateUI(value);
         }
-    }
-
-    private void UpdateUI()
-    {
-        countText.text = countTextPrefix + count.ToString();
     }
 
     void Awake()
@@ -52,14 +33,40 @@ public class EnemyManager : MonoBehaviour
         instance = this;    
     }
 
-    void Start () 
+    //void OnEnable() 
+    //{
+    //    Restart();
+    //}
+
+    public void Restart()
     {
-        Restart();
-        UpdateUI();
-	}
-	
-	void Update () 
+        Debug.LogWarning("CALLED RESTART");
+        this.Count = 0;
+        CreateEnemies(this.enemyCount);
+    }
+
+    private void CreateEnemies(int num)
     {
-		
-	}
+        Debug.Log(num);
+        for (int i = 0; i < num; i++)
+        {
+            GameObject newEnemy = Instantiate(enemyPrefab, this.transform);
+        }
+    }
+
+    private void CheckCount(int value)
+    {
+        Debug.Log("Enemies killed: " + value.ToString());
+        if (value >= enemyCount)
+        {
+            GameManager.instance.GameOver();
+        }
+    }
+
+    private void UpdateUI(int value)
+    {
+        countText.text = countTextPrefix + value.ToString();
+    }
+
+   
 }
