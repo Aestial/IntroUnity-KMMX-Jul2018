@@ -43,8 +43,8 @@ namespace Invaders
                     float x = this.speed * Time.deltaTime;
                     this.transform.position += new Vector3(x, 0, 0);
                 }
-                else
-                    Debug.LogWarning("Limit Reached");
+                //else
+                    //Debug.LogWarning("Limit Reached");
             }
 
             if (Input.GetKey(KeyCode.A))

@@ -3,18 +3,34 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+[System.Serializable]
+public struct ScoreText
+{
+    public Text textComponent;
+    public string prefix;
+}
+
 public class EnemyManager : MonoBehaviour 
 {
     //SINGLETON
     public static EnemyManager instance;
 
+    public const string highscoreKey = "Highscore";
+
     [SerializeField] private GameObject enemyPrefab;
-    [SerializeField] private int enemyCount;
-    [SerializeField] private string countTextPrefix;
-    //[SerializeField] private int total;
-    [SerializeField] private Text countText;
+    [SerializeField] private int minEnemies;
+    [SerializeField] private int maxEnemies;
+
+    [Header("Highscore")]
+    [SerializeField] private IntVariable highscoreVariable;
+
+    [Header("UI Config")]
+    [SerializeField] private ScoreText high;
+    [SerializeField] private ScoreText current;
 
     private int count;
+
+    private int numEnemies;
 
     public int Count
     {
@@ -24,7 +40,7 @@ public class EnemyManager : MonoBehaviour
             count = value;
             Debug.Log(value);
             CheckCount(value);
-            UpdateUI(value);
+            UpdateScore(value);
         }
     }
 
@@ -33,16 +49,21 @@ public class EnemyManager : MonoBehaviour
         instance = this;    
     }
 
-    //void OnEnable() 
-    //{
-    //    Restart();
-    //}
+    void Start()
+    {
+        //int highscore = PlayerPrefs.GetInt(highscoreKey);
+        int highscore = highscoreVariable.Value;
+        UpdateHighScore(highscore);
+        numEnemies = Random.Range(this.minEnemies, this.maxEnemies);
+        Debug.LogWarning("Number of enemies: " + numEnemies);
+        //Debug.LogWarning(highscore);
+    }
 
     public void Restart()
     {
-        Debug.LogWarning("CALLED RESTART");
+        //Debug.LogWarning("CALLED RESTART");
         this.Count = 0;
-        CreateEnemies(this.enemyCount);
+        CreateEnemies(numEnemies);
     }
 
     private void CreateEnemies(int num)
@@ -57,16 +78,23 @@ public class EnemyManager : MonoBehaviour
     private void CheckCount(int value)
     {
         Debug.Log("Enemies killed: " + value.ToString());
-        if (value >= enemyCount)
+        if (value >= numEnemies)
         {
             GameManager.instance.GameOver();
+            highscoreVariable.Value = value;
+            //PlayerPrefs.SetInt(highscoreKey, value);
+            UpdateHighScore(value);
+            Debug.Log(value);
         }
     }
 
-    private void UpdateUI(int value)
+    private void UpdateScore(int value)
     {
-        countText.text = countTextPrefix + value.ToString();
+        current.textComponent.text = current.prefix + value.ToString();
     }
 
-   
+    private void UpdateHighScore(int value)
+    {
+        high.textComponent.text = high.prefix + value.ToString();
+    }
 }

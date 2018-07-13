@@ -14,8 +14,8 @@ public class GameManager : MonoBehaviour
 {
     // SINGLETON
     public static GameManager instance;
-
     public Transform enemy;
+
     public Transform player;
     public Canvas mainMenu;
     public Canvas endMenu;
